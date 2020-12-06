@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comfy Shop</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="slider.css" />
+    <link rel="stylesheet" href="products.css" />
+    <link rel="stylesheet" href="bill.css">
+
+  </head>
+  <body>
+  <div style="display:none">
+      <audio id="audio"  controls autoplay  preload="none" loop>
+                <!-- <source src="wakhra.mp3"> -->
+                <source src="open.mp3">
+                The song is not supported in this browser.
+      </audio>;
+  </div>
+
+   <div class="header">
+      <div id="navbar">
+        <i class="fa fa-th-list">
+          <div id="nav_list">
+            <a><li>Home</li></a>
+            <a><li>About</li></a>
+            <a><li>Contact</li></a>
+          </div>
+        </i>
+      </div>
+      <div style="font-weight: bold;">
+        Comfy <span style="color: red; margin-left: 10px;">House</span>
+      </div>
+      <div class="cart">
+        <i class='fas fa-play' id="play" style='display:none;font-size:24px;margin:0px 50px'></i>
+        <i class='fas fa-music' id="music" style='font-size:24px;margin:0px 50px'></i>
+        <i id="cart_icon" class="fa fa-cart-arrow-down"></i>
+      </div>  
+    </div>
+    <!--  -->
+    <!-- bill bill bill bill bill bill  bill -->
+    <!--  -->
+    <div id="bill"  class="container">
+      <div class="cancel">
+        <i
+          style="font-size: 1.5em;"
+          class="fa fa-window-close"
+          aria-hidden="true"
+        ></i>
+      </div>
+      <div class="head">
+        <span>Your cart</span><br><br><br>
+      </div>
+      <div class="list_container">
+     
+      </div>
+      <br>
+      <br>
+      <div class="total">Your Total:- <span id="to">00</span></div><br>
+      <div class="clear_cart">
+        <button>Clear Cart</button>
+      </div>
+    
+      <br>
+    </div>
+<!-- bill bill       bill bill          bill -->
+<!--                                   -->
+    <div class="body">
+      <!--  -->
+
+      <!--  -->
+      <div id="slider">
+        <img class="slide-img" src="https://images.wallpaperscraft.com/image/buildings_settlement_village_171523_1920x1080.jpg "/>
+          <div class="reference">
+            
+          </div>
+          <div class="reference">
+            
+          </div>
+          <div class="reference">
+            
+          </div>
+        <div class="div_slide">
+           
+          <ul class="slider-nav">
+            <li class="slider-nav__item">
+              <label class="slider-nav__label" for="one"><b>1</b></label>
+            </li>
+            <li class="slider-nav__item">
+              <label class="slider-nav__label" for="two"><b>2</b></label>
+            </li>
+            <li class="slider-nav__item">
+              <label class="slider-nav__label" for="three"><b>3</b></label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="heading">Our Products</div>
+      <br /><br />
+      <!-- products -->
+      <div class="products">
+        <!--  -->
+        <div class="pro">
+          <div>
+            <img
+              class="pro_img"
+              src="https://images.unsplash.com/photo-1585592377048-a627ec452b7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
+            />
+            <p class="p1">Add To cart</p>
+          </div>
+          <p class="pro_name">Maountain</p>
+          <p class="price">2000</p>
+        </div>
+
+        <div class="pro">
+          <div>
+          <img
+            class="pro_img"
+            src="https://images.unsplash.com/photo-1583092588642-71164d150ef2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
+          />
+          <p class="p1">Add To Cart</p>
+          </div>
+          <p class="pro_name">Sports car</p>
+          <p class="price">2000</p>
+        </div>
+
+        <div class="pro">
+          <div>
+          <img
+            class="pro_img"
+            src="https://images.unsplash.com/photo-1590940426006-f88b82e73ac1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
+          />
+          <p class="p1">Add To Cart</p>
+          </div>
+          <p class="pro_name">River</p>
+          <p class="price">2000</p>
+        </div>
+        
+
+        <div class="pro">
+          <div>
+            <img
+              class="pro_img"
+              src="https://images.unsplash.com/photo-1590746490933-7ac6676d9a9c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
+            />
+            <p class="p1">Add To Cart</p>
+          </div>
+          <p class="pro_name">Mercedeze</p>
+          <p class="price">2000</p>
+        </div>
+
+        <div class="pro">
+          <div>
+            <img
+              class="pro_img"
+              src="https://images.unsplash.com/photo-1590523814919-6e0a95e8fefc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
+            />
+            <p class="p1">Add To Cart</p>
+          </div>
+          <p class="pro_name">Honda Bikes</p>
+          <p class="price">2000</p>
+        </div>
+        
+        <div class="pro">
+          <div>
+            <img
+              class="pro_img"
+              src="https://images.unsplash.com/photo-1590598680321-6453ca811fb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
+            />
+            <p class="p1">Add To Cart</p>
+          </div>
+          <p class="pro_name">Local train</p>
+          <p class="price">2000</p>
+        </div>
+      </div>
+      <br /><br />
+    
+      <div class="login">
+        <a href="https://www.google.com"
+          ><i title="google"
+            class="fa fa-google-plus-square"
+            style="font-size: 48px; color: red;"
+          ></i
+        ></a>
+        <a href="https://www.instagram.com"
+          ><i title="instagram" class="fa fa-instagram" style="font-size: 48px; color: blue;"></i>
+        </a>
+        <a href="https://www.linkedin.com"
+          ><i
+            title="linkedIn" class="fa fa-linkedin-square"
+            style="font-size: 48px; color: green;"
+          ></i>
+        </a>
+      </div>
+    </div>
+    <br />
+    <div align="center" style="background-color: darkgray; padding: 5px;">
+      <h1>Thank You !</h1>
+    </div>
+
+
+<!--  -->
+<!--  -->
+<!--  -->
+
+<!--  -->
+<!--  -->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<!-- <script src="/__/firebase/7.15.5/firebase-app.js"></script> -->
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<!-- <script src="/__/firebase/7.15.5/firebase-analytics.js"></script> -->
+
+<!-- Initialize Firebase -->
+<!-- <script src="/__/firebase/init.js"></script>  -->
+
+    <script src="audio.js"></script>
+    <script src="slider.js"></script>
+    <script src="date.js"></script>
+    <script src="location.js"></script>
+    <script src="list.js"></script>
+
+    <script>
+
+      var i = 0;
+      var nav = document.getElementsByClassName("fa")[0];
+      nav.addEventListener("click", () => {
+        if (i % 2 == 0) {
+          document.getElementById("nav_list").style.display = "block";
+          i++;
+        } else if (i % 2 == 1) {
+          document.getElementById("nav_list").style.display = "none";
+          i++;
+        }
+      });
+      
+      document.addEventListener("click", (event) => {
+        if (event.target.className != "fa fa-th-list") {
+            console.log(event.target.parentNode.parentNode.id);
+          if (event.target.parentNode.parentNode.id != "nav_list") {
+            if (i % 2 == 1) {
+              document.getElementById("nav_list").style.display = "none";
+              i++;
+            }
+          }
+        }
+      });
+
+
+if(c==0)
+{
+    setDate();
+}
+var li=document.getElementsByClassName("slider-nav__item");
+li[0].addEventListener("click",()=>{
+c=0;
+setDate();
+})
+
+li[1].addEventListener("click",()=>{
+c=1;
+getLocation();
+})
+
+li[2].addEventListener("click",()=>{
+c=2;
+getLocation();
+})
+    </script>
+  </body>
+</html>
